@@ -1,0 +1,79 @@
+#owl-carousel .item {
+  /* background: #7895eb; */
+  background: darkslateblue;
+  padding: 10px 5px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  min-height: 18vh;
+}
+
+#owl-carousel .item h1 {
+  font-size: 20px;
+}
+
+.navbar {
+  background-color: darkslateblue;
+  /* background-color: #7895eb; */
+}
+
+.navbar-toggler {
+  border-color: aquamarine;
+}
+
+.navbar-toggler-icon {
+  color: aquamarine;
+}
+
+.reasonsTitle {
+  color: darkslateblue;
+}
+
+
+/* .nav-item::before,
+.nav-item::after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
+}
+
+.nav-item::before {
+  border-top: 3px solid #3E8914;
+  border-right: 3px solid #2E640F;
+  transform: translate(-100%, 50%);
+}
+
+.nav-item:after {
+  border-bottom: 3px solid #2E640F;
+  border-left: 3px solid #3E8914;
+  transform: translate(100%, -50%)
+}
+
+.nav-item:hover:before,
+.nav-item:hover:after{
+  transform: translate(0,0);
+  opacity: 1;
+} */
+
+.nav-item a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+.dropdown-menu {
+  background-color: darkslateblue;
+  border-color: gray;
+}
+
+.dropdown-menu a:hover {
+  border-bottom: 0px solid #ffffff;
+}
+
+footer {
+  background-color: darkslateblue;
+  padding-top: 5em;
+}
