@@ -75,7 +75,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -91,12 +91,16 @@
                             <li><a class="dropdown-item" href="#">Separated link</a></li>
                         </ul>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Packages</a>
+                        <a class="nav-link text-white" href="packages.html">Packages</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Workshop</a>
                     </li>
+
+                    <!-- Contact Us Button -->
                     <li class="nav-item">
                         <button type="button" class="btn btn-warning mx-2" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
@@ -107,24 +111,48 @@
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
+                                <form target="_blank" action="https://formsubmit.co/jimmytran07@hotmail.com" method="POST">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <div class="row g-3">
+                                                <div class="col">
+                                                    <label for="name" class="form-label">Full Name</label>
+                                                    <input type="text" name="name" class="form-control"
+                                                        placeholder="Full Name" required>
+                                                </div>
+                                                <div class="col">
+                                                    <label for="email" class="form-label">Email</label>
+                                                    <input type="email" name="email" class="form-control"
+                                                        placeholder="Email Address" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12 mt-4">
+                                                <label for="message" class="form-label">Message</label>
+                                                <textarea placeholder="Your Message" class="form-control" name="message"
+                                                    rows="10" required></textarea>
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit</button>
+
+                                        </div>
                                     </div>
-                                    <div class="modal-body">
-                                        ...
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </li>
+                    <!-- End of Contact Us Button -->
+
                 </ul>
             </div>
         </div>
@@ -136,7 +164,8 @@
 
         <!-- Start of 11 Reasons -->
         <div id="reasons">
-            <h1 class="text-center fs-1 fw-bold p-4 reasonsTitle">11 Reasons why our Renaissance Model Works for you</h1>
+            <h1 class="text-center fs-1 fw-bold p-4 reasonsTitle">11 Reasons why our Renaissance Model Works for you
+            </h1>
             <div id="owl-carousel" class="owl-carousel owl-theme row">
                 <div class="item">
                     <h1 class="fs-2 fw-bold">1</h1>
@@ -266,16 +295,16 @@
             <div class="row d-flex justify-content-center g-4">
                 <h1 class="text-center fs-1 fw-bold mt-5">Our Partners</h1>
                 <div class="col-lg-3 col-md-5 col-10">
-                    <img src="assets/logo_aus_sale.png" class="mx-auto d-block">
+                    <img src="assets/business_partners/logo_aus_sale.png" class="mx-auto d-block">
                 </div>
                 <div class="col-lg-3 col-md-5 col-10">
-                    <img src="assets/appre_support.png" class="mx-auto d-block">
+                    <img src="assets/business_partners/appre_support.png" class="mx-auto d-block">
                 </div>
                 <div class="col-lg-3 col-md-5 col-10">
-                    <img src="assets/megt_logo_web.png" class="mx-auto d-block">
+                    <img src="assets/business_partners/megt_logo_web.png" class="mx-auto d-block">
                 </div>
                 <div class="col-lg-3 col-md-5 col-10">
-                    <img src="assets/aasales.png" class="mx-auto d-block">
+                    <img src="assets/business_partners/aasales.png" class="mx-auto d-block">
                 </div>
             </div>
         </div>
